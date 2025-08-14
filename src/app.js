@@ -7,7 +7,7 @@ import { pinRouter } from "./routes/pin.route.js";
 const app = express();
 
 app.use( cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://inspireimg.vercel.app',
     credentials: true
 }))
 
